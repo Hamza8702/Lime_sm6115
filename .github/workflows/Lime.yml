@@ -47,7 +47,7 @@ jobs:
             CROSS_COMPILE_ARM32=arm-linux-gnueabi- \
             LLVM=1 \
             LLVM_IAS=1 \
-            vendor/bengal-perf_defconfig vendor/Xiaomi/lime_defconfig vendor/Xiaomi/bengal-perf_defconfig
+            vendor/bengal-perf_defconfig vendor/Xiaomi/lime.config vendor/Xiaomi/bengal-perf_defconfig
             
           # Inject KVM & Virtualization Configurations
           ./scripts/config --file out/.config -e KVM
