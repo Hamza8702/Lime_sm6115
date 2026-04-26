@@ -1,0 +1,4 @@
+# Example base kernel config for Xiaomi Poco M3 (Qualcomm SM6115/Bengal)
+# Use as a starting point for PostmarketOS kernel builds.
+# Author: MelvinSGjr (github)
+# (Fill with actual config options as needed) 
